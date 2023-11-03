@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement", "DynamicFormManagement\DynamicFormManagement.csproj", "{31073BF3-A36D-474E-82E9-9C3CB21E89B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement.Domain", "DynamicFormManagement.Domain\DynamicFormManagement.Domain.csproj", "{A1E69F73-3469-4FDE-9AA9-D9AD0CE06A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement.Web", "DynamicFormManagement.Web\DynamicFormManagement.Web.csproj", "{A6420FBF-BE5D-4EA0-A652-144B12370B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement.Application", "DynamicFormManagement.Application\DynamicFormManagement.Application.csproj", "{F15938B2-6B22-4317-8E7D-175F32B9BCE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement.Infrastructure", "DynamicFormManagement.Infrastructure\DynamicFormManagement.Infrastructure.csproj", "{7C05FDF3-A243-4516-A403-E8055699DCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFormManagement.Persistence", "DynamicFormManagement.Persistence\DynamicFormManagement.Persistence.csproj", "{3B8BD04F-73B3-4AC3-AC9A-F22C3533E94D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31073BF3-A36D-474E-82E9-9C3CB21E89B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31073BF3-A36D-474E-82E9-9C3CB21E89B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31073BF3-A36D-474E-82E9-9C3CB21E89B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31073BF3-A36D-474E-82E9-9C3CB21E89B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E69F73-3469-4FDE-9AA9-D9AD0CE06A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E69F73-3469-4FDE-9AA9-D9AD0CE06A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E69F73-3469-4FDE-9AA9-D9AD0CE06A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E69F73-3469-4FDE-9AA9-D9AD0CE06A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6420FBF-BE5D-4EA0-A652-144B12370B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6420FBF-BE5D-4EA0-A652-144B12370B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6420FBF-BE5D-4EA0-A652-144B12370B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6420FBF-BE5D-4EA0-A652-144B12370B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15938B2-6B22-4317-8E7D-175F32B9BCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15938B2-6B22-4317-8E7D-175F32B9BCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15938B2-6B22-4317-8E7D-175F32B9BCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15938B2-6B22-4317-8E7D-175F32B9BCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C05FDF3-A243-4516-A403-E8055699DCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C05FDF3-A243-4516-A403-E8055699DCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C05FDF3-A243-4516-A403-E8055699DCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C05FDF3-A243-4516-A403-E8055699DCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8BD04F-73B3-4AC3-AC9A-F22C3533E94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8BD04F-73B3-4AC3-AC9A-F22C3533E94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8BD04F-73B3-4AC3-AC9A-F22C3533E94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8BD04F-73B3-4AC3-AC9A-F22C3533E94D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
